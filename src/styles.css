@@ -8,6 +8,11 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #444444;
+    background-color: #f4f4f4;
+    
+    
+    
+    
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -38,7 +43,7 @@ a:hover, a:focus {
     margin: 0;
 }
 
-#banner {
+#modern {
     object-fit: cover;
 }
 
@@ -46,7 +51,7 @@ h1 {
     text-align: center;
 }
 
-#banner {
+#modern {
     width: 100%;
 }
 
@@ -63,11 +68,11 @@ h1 {
     font-size: 1.25rem;
 }
 
-#team {
+#black {
     width: 50%;
 }
 
-#team-image {
+#black-image {
     border-radius: 5px;
     width: 100%;
 }
@@ -78,6 +83,7 @@ h1 {
 
 h2 {
     text-align: center;
+    color: #333;
 }
 
 #jobs {
@@ -127,11 +133,17 @@ h3 {
 #application {
     max-width: 800px;
     margin: 0 auto;
-    padding: 0 8px;
+    padding: 0 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+
 }
 
 .form-group {
     margin: 16px 0;
+    margin-bottom: 20px
 }
 
 .form-group input, textarea, select{
@@ -169,22 +181,16 @@ h3 {
 }
 
 #footer {
-    background-color: #FAFAFA;
-    padding: 8px;
+    background-color: #222222;
+    padding: 10px;
     margin-top: 32px;
     text-align: center;
 }
 
-#footer-links {
-    list-style: none;
-}
 
-#footer-links li {
-    display: inline;
-    margin: 0 16px;
-}
+
 
 .copyright {
-    color: #71717A;
+    color: #FFFFFF;
     font-size: 0.875rem;
 }
